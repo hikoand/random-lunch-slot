@@ -122,6 +122,20 @@ body {
   margin-bottom: 20px;
 }
 
+span,
+em {
+  display: inline-block;
+  width: 78px;
+  height: 21px;
+  text-align: left;
+  position: absolute;
+  right: 5px;
+}
+
+.main_text p:last-child > span {
+  width: 120px;
+}
+
 .menu_print {
   position: absolute;
   top: 40%;
